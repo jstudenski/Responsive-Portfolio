@@ -6,10 +6,9 @@ Open index.html
 
 
 > ### TO DO:
-> - Check colors for consistency and convert to variables
 > - Add quick start guide w/sass instructions
 > - Change connect icons to favicons
-
+> - ~~Check colors for consistency and convert to variables~~
 
 ------
 

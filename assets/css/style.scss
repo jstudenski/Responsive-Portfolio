@@ -4,43 +4,20 @@
 
 $teal: #4aaaa5; // Teal
 $white: #ffffff;
-$light-gray: #eeedee;
-$med-gray: #dddddd;
-$gray: #808080;
+$light-gray: #dddddd;
+$med-gray: #cccccc;
+$gray: #777777;
 $dark-gray: #666666;
 
-.color1 {
+.colorsample div {
 	width: 50px;
 	height: 50px;
-	float: left;
-	background-color: $teal;
-}
-
-.color2 {
-	width: 50px;
-	height: 50px;
-	float: left;
-	background-color: $light-gray;
-}
-.color3 {
-	width: 50px;
-	height: 50px;
-	float: left;
-	background-color: $med-gray;
-}
-.color4 {
-	width: 50px;
-	height: 50px;
-	float: left;
-	background-color: $gray;
-}
-.color5 {
-	width: 50px;
-	height: 50px;
-	float: left;
-	background-color: $dark-gray;
-}
-
+	float: left;}
+.color1 { background-color: $teal; }
+.color2 { background-color: $light-gray; }
+.color3 { background-color: $med-gray; }
+.color4 { background-color: $gray; }
+.color5 { background-color: $dark-gray; }
 
 body {
     background-image: url('../images/dust.png');
