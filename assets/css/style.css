@@ -217,14 +217,23 @@ input[type=submit] {
   width: 100%;
   background-color: #dddddd; }
 
-.connect-link img {
-  width: 60px;
-  height: 60px;
+.connect-link {
+  width: 33.33%;
   float: left;
   padding-top: 30px;
-  padding-left: 14px; }
-.connect-link:nth-child(3n) img {
-  padding-left: 0px; }
+  background-color: salmon; }
+  .connect-link .fa-square {
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+
+.fa-stack-1x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
 
 .footer-push {
   height: 200px;

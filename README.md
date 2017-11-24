@@ -7,7 +7,7 @@ Open index.html
 
 > ### TO DO:
 > - Add quick start guide w/sass instructions
-> - Change connect icons to favicons
+> - Change connect icons to fontawesome and simplify fontawesome css tags
 > - ~~Check colors for consistency and convert to variables~~
 
 ------
