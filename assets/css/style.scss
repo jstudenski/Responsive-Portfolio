@@ -38,6 +38,8 @@ body {
     background-image: url('../images/dust.png');
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: $gray;
+    max-width: 100%; // Removed annoying side scroll
+    overflow-x: hidden; // Removed annoying side scroll
 }
 
 h1, h2 {
@@ -85,18 +87,14 @@ h2 { font-size: 1.4em; }
 		float: left;
 		padding: 2px 9px 0 9px;
 		height: 16px;
-
 		&:hover { 
 			color: $med-gray;
 		}
 		&:not(:first-child) { 
 			border-left: 1px solid $light-gray;
 		}
-
 	}
-
 }
-
 
 // .nav-bar a
 .nav-bar .current, .nav-bar .current:hover { color: $teal; }
@@ -109,8 +107,9 @@ h2 { font-size: 1.4em; }
 }
 
 .main-content {
-	width: 588px;
-	min-height: 438px;
+	box-sizing: border-box;
+	width: 650px;
+	min-height: 500px;
 	float: left;
 	h1 {
 		padding: 14px 0px;
@@ -191,19 +190,11 @@ input[type=submit] {
     margin-top: 19px;
 }
 
-/* input placegolder color */
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: $light-gray;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: $light-gray;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: $light-gray;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: $light-gray;
-}
+// input placegolder color
+::-webkit-input-placeholder {color: $light-gray;} // Chrome/Opera/Safari
+::-moz-placeholder {color: $light-gray;} // Firefox 19+
+:-ms-input-placeholder {color: $light-gray;} // IE 10+
+:-moz-placeholder {color: $light-gray;} // Firefox 18-
 
 /* Potrfolio Page */
 .portfolio-item {
@@ -258,8 +249,9 @@ input[type=submit] {
 
 /* Connect Sidebar */
 .connect-sidebar {
-	width: 208px; // 270-(30x2)-2
-	height: 138px; // 200-(30x2)-2
+	box-sizing: border-box;	
+	width: 270px;
+	height: 200px;
 	float: right;
 	h2 { color: $teal; }
 }
@@ -291,7 +283,7 @@ input[type=submit] {
 	content: "\f08c"; 
 	color: #007abf;}
 .fa-square:before {
-	content: "\f0c8"; //fa-square
+	content: "\f0c8";
 	color: #ffa100;
 }
 .fa-stack-overflow:before {

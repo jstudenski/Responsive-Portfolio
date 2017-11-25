@@ -7,7 +7,8 @@ Open index.html
 
 > ### TO DO:
 > - Add quick start guide w/sass instructions
-> - Migrate necessary fontawesome CSS classes to local Sass (and simplify) then remove linked fontawesome files
+> - ~~Convert CSS 'box-sizing: border-box' where applicable~~
+> - ~~Migrate necessary fontawesome CSS classes to local Sass (and simplify) then remove linked fontawesome files~~
 > - ~~Change connect icons to fontawesome and simplify fontawesome CSS tags~~
 > - ~~Check colors for consistency and convert to variables~~
 
