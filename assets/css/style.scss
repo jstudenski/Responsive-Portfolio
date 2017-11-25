@@ -1,6 +1,13 @@
 // sass --watch assets/css/style.scss:assets/css/style.css
-// change EEEDEE to d7d7d7 ?
-// check font-size for consistency
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 $teal: #4aaaa5; // Teal
 $white: #ffffff;
@@ -254,9 +261,7 @@ input[type=submit] {
 	width: 208px; // 270-(30x2)-2
 	height: 138px; // 200-(30x2)-2
 	float: right;
-	h2 {
-		color: $teal;
-	}
+	h2 { color: $teal; }
 }
 
 .connect-page-break {
@@ -266,30 +271,37 @@ input[type=submit] {
 	background-color: $light-gray;
 }
 
-
 .connect-link {
-	width: 33.33%;
-	float: left;
-	padding-top: 30px;
-	background-color: salmon;
-	.fa-square {
-		font-size: 2em;
-		position: absolute;
-		left: 0;
-		width: 100%;
-		text-align: center;
-	}
-
-}
-
-.fa-stack-1x {
-    position: absolute;
-    left: 0;
-    width: 100%;
+    width: 33.33%;
+    float: left;
+    padding-top: 30px;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 4em;
+    position: relative;
     text-align: center;
 }
 
-
+.fa-github-square:before { 
+	content: "\f092"; 
+	color: #333333;}
+.fa-linkedin-square:before { 
+	content: "\f08c"; 
+	color: #007abf;}
+.fa-square:before {
+	content: "\f0c8"; //fa-square
+	color: #ffa100;
+}
+.fa-stack-overflow:before {
+	content: "\f16c"; 
+    color: #ffffff;
+    font-size: 65%;
+    position: absolute;
+    left: 25%;
+    top: 41px;
+}
 
 
 .footer-push {
