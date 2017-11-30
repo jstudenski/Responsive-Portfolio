@@ -6,6 +6,7 @@ Open index.html
 
 
 > ### TO DO:
+> - Favicon
 > - Add quick start guide w/sass instructions
 > - ~~Convert CSS 'box-sizing: border-box' where applicable~~
 > - ~~Migrate necessary fontawesome CSS classes to local Sass (and simplify) then remove linked fontawesome files~~
