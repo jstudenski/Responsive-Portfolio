@@ -4,6 +4,9 @@ U of M Coding Boot Camp: 02 Homework Part 2
 ## Quick Start
 Open index.html
 
+Install Sass
+```gem install sass```
+Watch for Changes
 ```sass --watch assets/css/style.scss:assets/css/style.css```
 
 
@@ -17,6 +20,5 @@ Open index.html
 > - ~~Check colors for consistency and convert to variables~~
 
 ------
-
-###### favicon generated from favicon.io [JS/Rounded/jaldi/100/FFFFFF/4AAAA5]
+###### favicon generated from favicon.io
 ###### background from subtlepatterns.com
