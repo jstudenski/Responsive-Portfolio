@@ -14,7 +14,7 @@ Watch for Changes
 ###### background from subtlepatterns.com
 
 > ### TO DO:
-> - Updated portfolio images
+> - ~~Updated portfolio images~~
 > - ~~Add quick start guide w/sass instructions~~
 > - ~~Add semantic elements~~
 > - ~~Convert CSS 'box-sizing: border-box' where applicable~~
