@@ -4,10 +4,13 @@ U of M Coding Boot Camp: 02 Homework Part 2
 ## Quick Start
 Open index.html
 
+```sass --watch assets/css/style.scss:assets/css/style.css```
+
 
 > ### TO DO:
-> - Favicon
+> - Updated portfolio images
 > - Add quick start guide w/sass instructions
+> - ~~Add semantic elements~~
 > - ~~Convert CSS 'box-sizing: border-box' where applicable~~
 > - ~~Migrate necessary fontawesome CSS classes to local Sass (and simplify) then remove linked fontawesome files~~
 > - ~~Change connect icons to fontawesome and simplify fontawesome CSS tags~~

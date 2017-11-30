@@ -1,7 +1,6 @@
 /reference
 .sass-cache/
-/assets/css/style-old.css
-/assets/css/style.css.map
+*.css.map
 
 
 
