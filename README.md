@@ -1,6 +1,8 @@
 ## Responsive Portfolio
 U of M Coding Boot Camp: 02 Homework Part 2
 
+[See it live!](https://jstudenski.github.io/Responsive-Portfolio/)
+
 ## Quick Start
 Open index.html
 
